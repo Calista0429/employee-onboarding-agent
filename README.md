@@ -1,3 +1,8 @@
+<div align="right">
+  <a href="README.md"><img src="https://img.shields.io/badge/README-English-1A5276?style=for-the-badge" alt="English"></a>
+  <a href="README.ja.md"><img src="https://img.shields.io/badge/README-%E6%97%A5%E6%9C%AC%E8%AA%9E-lightgrey?style=for-the-badge" alt="日本語"></a>
+</div>
+
 # Effective — Employee Onboarding
 
 An independent portfolio project exploring what happens around an employee information form: HR defines the information to collect, invites new hires, and reviews their submissions. Employees receive an individual task, save drafts, confirm their details and submit them to persistent storage.
@@ -237,7 +242,7 @@ The script resets the workspace to the seed first, so repeated runs stay compara
 
 This is a small single-company demonstration. It has manual bank details, explicit draft saves, one HR review step, paginated in-memory workspace reads and a single JSON file instead of a database. The Agent is a helper over a fixed catalogue of tools, not a general workflow author: it cannot invent new fields, change shipped templates or grant access. Notification text is composed from templates; only the optional model-written reminder text varies. There is no deadline enforcement, file upload, real email transport, multi-tenant isolation or user account system.
 
-All README files and source-code comments are written in English.
+Source-code comments are written in English. This README is available in English and Japanese; switch with the buttons at the top.
 
 ## Public references
 
